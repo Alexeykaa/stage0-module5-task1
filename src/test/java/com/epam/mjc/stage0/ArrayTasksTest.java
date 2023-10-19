@@ -47,7 +47,7 @@ public class ArrayTasksTest {
 
     @Test
     public void seasonsArrayTest() {
-        assertArrayEquals(Stream.of("winter", "spring", "summer", "autumn").toArray(),
+        assertArrayEquals(Stream.of("winter", "spring", "summer", "automn").toArray(),
                 Arrays.stream(arrayTasks.seasonsArray()).map(String::toLowerCase).toArray(),
                 "I think, you have mistake in order or name of season");
     }
